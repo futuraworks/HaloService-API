@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	font-family: "LatoWeb";
+	transition: ease 0.2s;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+button{
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+#body{
+	position: relative;
+	left: 0;
+	transition: cubic-bezier(.86,0,.07,1) 0.5s;
+}
+.card-img-top{
+	cursor: pointer;
+}
+/* CSS untuk Header.php */
+.header{
+	padding: 5px 2px;
+	background: rgb(41, 128, 185);
+	color: white;
+}
+.header .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.header .konten{
+	display: inline-block;
+}
+.header .profile{
+	position: absolute;
+	padding: 5px;
+	top: 0;
+	right: 0;
+	font-size: 15px;
+}
+.header .profile a{
+	color: white;
+}
+.header .profile a:hover{
+	color: rgb(200,200,200);
+}
+.header-menu #header-button, #header-button2{
+	width: 100%;
+	text-align: left;
+	padding: 5px 10px;
+	color: white;
+}
+#header-button2 text{
+	font-size: 15px;
+	padding: 10px;
+	vertical-align: middle;
+}
+.header-menu{
+	left: -200px;
+	background: rgb(50,150,250);
+	height: 100%;
+	width: 200px;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+	transition: cubic-bezier(.86,0,.07,1) 0.5s;
+}
+.header-menu .menu{
+	margin-top: 5px;
+	padding: 10px;
+}
+.header-menu .menu button{
+	width: 100%;
+	text-align: left;
+	padding: 10px;
+	color: white;
+	font-size: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.5);
+}
+.header-menu .menu button:hover{	
+	background: rgba(0,0,0,0.2);
+}
+.header-menu-bg{
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 0%;
+	height: 100%;
+	z-index: 1;
+	transition: cubic-bezier(.86,0,.07,1) 0.5s;
+}
+/* CSS untuk Content.php */
+#content{
+	padding: 10px;
+}
+/* CSS untuk login.php */
+#login{
+	padding: 10px;
+	width: 300px;
+	margin: auto;
+}
+#login .title{
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#login .button{
+	margin-top: 5px;
+	text-align: center;
+}
+#login .button button{
+	background: rgb(46, 204, 113);
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,0.2);
+	color: rgb(255,255,255);
+	min-width: 100px;
+}
+#login .button button:hover{
+	background: rgb(39, 174, 96);
+}
+#login input{
+	width: 100%;
+	padding: 5px;
+	margin: 3px 0px;
+}
+/* CSS untuk Error Paging*/
+#errorpage{
+	padding: 50px;
+	text-align: center;
+}
+#errorpage .title{
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 65px;
+}
+#errorpage .code{
+	font-size: 100px;
+	font-weight: bold;
+	line-height: 65px;
+}
+#errorpage .desc{
+	font-size: 20px;
+	line-height: 100px;
+}
+/* CSS untuk ujian.php */
+#ujian{
+	padding: 5px;
+}
+#ujian .note{
+	padding: 10px;
+	background: rgb(241, 196, 15);
+}
+#ujian .category{
+	background: rgb(231, 76, 60);
+	margin: 5px;
+	width: 300px;
+	height: 150px;
+	text-align: center;
+}
+#ujian .choice{
+	display: flex;	
+	margin-top: 2px;
+}
+#ujian .category .title{
+	font-size: 20px;
+	background: rgb(192, 57, 43);
+	padding: 5px;
+	text-align: center;
+	color: white;
+}
+#ujian .category:hover .title{
+	font-size: 22px;
+}
+#ujian .category button{
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	color: white;
+	transition: none;
+}
+#ujian .category:hover button{
+	font-size: 70px;
+}
+/* Dll */
+.icon{
+	font-size: 20px;
+}
+/* Hover Animation dan Coloring */
+.bg_black:hover{
+	background: rgba(0,0,0,0.2);
+}
+.font_white{
+	color: white;
+}
